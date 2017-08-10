@@ -2,97 +2,139 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="assets/stylesheets/rest.css"/>
     <title>My Seattle Restaurants Site</title>
   </head>
   <body>
-    <h1>Welcome to Rudy's Awesome Seattle Restaurant Site</h1>
-    <p><b>This is a site of <u>Restaurants</u> I like to eat at when I'm in the <u>Seattle</u> area</b></p>
-    <br>
-    <h2>Rudy's Top 6 Seattle Restaurants</h2>
-    <ol>
-      <li>
-        <img src="wild_ginger_pic.jpeg" alt="Ginger" width="75">
-        <a href="http://www.wildginger.net/" target="_blank">Wild Ginger</a>
-        <span> - Wild Ginger is by far the best Thai place in town, and one of the best <strong>ANYWHERE</strong></span>
-      </li>
-      <li>
-        <img src="pink_door_pic.jpeg" alt="Pink Door Interior" width="75">
-        <a href="https://www.thepinkdoor.net/" target="_blank">The Pink Door</a>
-        <span> - You need to see this place to believe it. Great food. Even <b>COOLER</b> atmosphere</span>
-      </li>
-      <li>
-        <img src="steak_pic.jpeg" alt="Yummy Steak" width="75">
-        <a href="http://www.themetropolitangrill.com/" target="_blank">The Metropolitan Grill</a>
-        <span> - <b>Best</b> steak in town. Enough said</span>
-      </li>
-      <li>
-        <img src="ferry_pic.jpeg" alt="Seattle Ferry" width="75">
-        <a href="http://www.ferrynoodlehouseseattle.com/" target="_blank">Ferry Noodle House</a>
-        <span> - The Ferry Noodle House is a cool little <b>(and affordable)</b> spot on the way to the Ferry Terminal</span>
-      </li>
-      <li>
-        <img src="bainbridge_island_pic.jpeg" alt="Bainbridge Island" width="75">
-        <a href="http://www.cafenola.com//" target="_blank">Cafe Nola</a>
-        <span> - Take the ferry over to Bainbridge Island and enjoy the view as well as some <b>great</b> food</span>
-      </li>
-      <li>
-        <img src="rum_pic.jpeg" alt="Rum" width="75">
-        <a href="my_kitchen.html">Rudy's Place</a>
-        <span> - Rudy can't cook worth a damn, but his wife can. And Rudy mixes some <b>POTENT</b> cocktails</span>
-      </li>
-    </ol>
-    <br>
-    <br>
-    <H3>Table of recommended Dishes and Drinks - follow link from the <i>suggested dish</i> to the menu</H3>
-    <br>
-    <table>
-      <tr>
-        <th>Restaurant</th>
-        <th>Suggested Dish</th>
-        <th>Suggested Drink</th>
-      </tr>
-      <tr>
-        <td>Wild Ginger</td>
-        <td><a href="http://www.wildginger.net/our-food/Menus.aspx" target="_blank">Fragrant Duck</a></td>
-        <td>Ginger Martini</td>
-      </tr>
-      <tr>
-        <td>The Pink Door</td>
-        <td><a href="https://www.thepinkdoor.net/menus/" target="_blank">Risotto</a></td>
-        <td>Cosmo</td>
-      </tr>
-      <tr>
-        <td>The Met</td>
-        <td><a href="http://www.themetropolitangrill.com/menus/dinner//" target="_blank">Porterhouse</a></td>
-        <td>Moscow Mule</td>
-      </tr>
-      <tr>
-        <td>Ferry Noodle House</td>
-        <td><a href="https://www.beyondmenu.com/29565/seattle/ferry-noodle-house-seattle-98104.aspx#group_965557" target="_blank">Yellow Curry</a></td>
-        <td>Thai Iced Tea</td>
-      </tr>
-      <tr>
-        <td>Cafe Nola</td>
-        <td><a href="http://www.cafenola.com//menus/dinner.htm" target="_blank">Roasted Rack of Lamb</a></td>
-        <td>Martini</td>
-      </tr>
-      <tr>
-        <td>Rudy's Place</td>
-        <td>Whatever He's Serving</td>
-        <td>Whatever You Bring</td>
-      </tr>
-    </table>
-    <br>
-    <br>
-    <h3>Some kind of form to fill out below</h3>
-    <form>
-      Full Name:<br>
-      <input type="text" name="fullname"><br>
-      Email:<br>
-      <input type="text" name="email_address"><br>
-      Comment:<br>
-      <input type="text" name="comment"><br>
-    </form>
+
+    <div id="masthead">
+
+        <div id="logo">
+            <a href="rest.html">My Awesome Restaurant Site</a>
+        </div>
+
+        <div id="navbar">
+
+            <ul id="nav-list">
+
+                <li class="nav-link">
+                    <a href="rest.html">Home</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="about.html">About</a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div id="content">
+
+        <div id="hero"></div>
+
+        <div id="header-statement">
+          <h1>Welcome to Rudy's Awesome Seattle Restaurant Site</h1>
+
+          <p><b>This is a site of <u>Restaurants</u> I like to eat at when I'm in the <u>Seattle</u> area</b></p>
+
+          <h2>Rudy's Top 6 Seattle Restaurants</h2>
+        </div>
+
+        <div id="cards" class="page-row">
+          <div class="card" id="wild-ginger">
+            <h3>Wild Ginger</h3>
+            <a href="http://www.wildginger.net/" target="_blank">Wild Ginger Site</a>
+          </div>
+
+          <div class="card" id="pink-door">
+            <h3>The Pink Door</h3>
+            <a href="https://www.thepinkdoor.net/" target="_blank">The Pink Door Site</a>
+          </div>
+
+          <div class="card" id="met-grill">
+            <h3>Metropolitan Grill</h3>
+            <a href="http://www.themetropolitangrill.com/" target="_blank">The Metropolitan Grill Site</a>
+          </div>
+
+          <div class="card" id="noodle-house">
+            <h3>Ferry Noodle House</h3>
+            <a href="http://www.ferrynoodlehouseseattle.com/" target="_blank">Ferry Noodle House Site</a>
+          </div>
+
+          <div class="card" id="cafe-nola">
+            <h3>Cafe Nola</h3>
+            <a href="http://www.cafenola.com//" target="_blank">Cafe Nola Site</a>
+          </div>
+
+          <div class="card" id="my-place">
+            <h3>Rudy's Place</h3>
+            <a href="my_kitchen.html">Rudy's Place Site</a>
+          </div>
+
+        </div>
+
+
+        <div class="page-row" id="travel-table">
+          <H3>Table of recommended Dishes and Drinks - follow link from the <i>suggested dish</i> to the menu</H3>
+
+          <table>
+            <tr>
+              <th>Restaurant</th>
+              <th>Suggested Dish</th>
+              <th>Suggested Drink</th>
+            </tr>
+            <tr>
+              <td>Wild Ginger</td>
+              <td><a href="http://www.wildginger.net/our-food/Menus.aspx" target="_blank">Fragrant Duck</a></td>
+              <td>Ginger Martini</td>
+            </tr>
+            <tr>
+              <td>The Pink Door</td>
+              <td><a href="https://www.thepinkdoor.net/menus/" target="_blank">Risotto</a></td>
+              <td>Cosmo</td>
+            </tr>
+            <tr>
+              <td>The Met</td>
+              <td><a href="http://www.themetropolitangrill.com/menus/dinner//" target="_blank">Porterhouse</a></td>
+              <td>Moscow Mule</td>
+            </tr>
+            <tr>
+              <td>Ferry Noodle House</td>
+              <td><a href="https://www.beyondmenu.com/29565/seattle/ferry-noodle-house-seattle-98104.aspx#group_965557" target="_blank">Yellow Curry</a></td>
+              <td>Thai Iced Tea</td>
+            </tr>
+            <tr>
+              <td>Cafe Nola</td>
+              <td><a href="http://www.cafenola.com//menus/dinner.htm" target="_blank">Roasted Rack of Lamb</a></td>
+              <td>Martini</td>
+            </tr>
+            <tr>
+              <td>Rudy's Place</td>
+              <td>Whatever He's Serving</td>
+              <td>Whatever You Bring</td>
+            </tr>
+          </table>
+        </div>
+
+        <h3>Some kind of form to fill out below</h3>
+        <form>
+          Full Name:<br>
+          <input type="text" name="fullname"><br>
+          Email:<br>
+          <input type="text" name="email_address"><br>
+          Comment:<br>
+          <input type="text" name="comment"><br>
+        </form>
+
+      </div>
 
   </body>
+
 </html>
